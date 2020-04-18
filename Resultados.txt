@@ -1,0 +1,37 @@
+/*  Resultados de la compilacion  */
+
+/*  Tabla de Simbolos  */
+
+|Clave: x       ||Valor: x       |Tipo: int      |Uso: VARIABLE            |Ambiente: GLOBAL                   |Declarado: SI  |
+
+|Clave: funciona do until||Valor: funciona do until|Tipo: Cadena   |Uso: CADENA              |Ambiente: GLOBAL                   |Declarado: SI  |
+
+|Clave: 1       ||Valor: 1       |Tipo: int      |Uso: CTE                 |Ambiente: GLOBAL                   |Declarado: NO  |
+
+|Clave: 10      ||Valor: 10      |Tipo: int      |Uso: CTE                 |Ambiente: GLOBAL                   |Declarado: NO  |
+
+|Clave: 0       ||Valor: 0       |Tipo: int      |Uso: CTE                 |Ambiente: GLOBAL                   |Declarado: NO  |
+
+|Clave: y       ||Valor: y       |Tipo: int      |Uso: VARIABLE            |Ambiente: GLOBAL                   |Declarado: SI  |
+
+
+/*  Tercetos  */
+[0] :(:=, y, 10)
+[1] :(:=, x, 0)
+[2] :(INIDO, 2, )
+[3] :(+, x, 1)
+[4] :(:=, x, [3])
+[5] :(==, x, 10)
+[6] :(BD, [5], [8])
+[7] :(BI, [2], )
+[8] :(FIN_DO, -, -)
+[9] :(==, x, y)
+[10] :(BF, [9], [12])
+[11] :(PRINT, funciona do until, )
+[12] :(FINIF, -, -)
+
+
+
+/*  No Existen Errores  */
+  Se creo el codigo Assembler en el archivo Salida.asm
+

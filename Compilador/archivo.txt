@@ -1,0 +1,21 @@
+/+Para este caso de prueba se muestra el funcionamiento de la sentencia de control DO UNTIL+/
+
+int x;
+int y;
+
+/+Comienzo del bloque ejecutable+/
+
+begin
+y:=10;
+x:=0;
+
+do
+begin
+x:= x+1;
+end
+until(x==10)
+
+if(x==y)
+print(%funciona do until%);
+end_if
+end
